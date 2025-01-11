@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  nodejs-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+    - COINGECKO_API_KEY=CG-zLG1PrYzHpkvMnRwNFbohqZG 
+    - MONGODB_URL=mongodb+srv://Kishu:Kishu123@cluster0.p1qo4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    - PORT=3000
