@@ -11,6 +11,6 @@ services:
       - .:/usr/src/app
       - /usr/src/app/node_modules
     environment:
-    - COINGECKO_API_KEY=CG-zLG1PrYzHpkvMnRwNFbohqZG 
-    - MONGODB_URL=mongodb+srv://Kishu:Kishu123@cluster0.p1qo4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    - COINGECKO_API_KEY= 
+    - MONGODB_URL
     - PORT=3000
