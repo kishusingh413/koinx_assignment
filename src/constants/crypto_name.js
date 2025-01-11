@@ -1,0 +1,2 @@
+CRYPRO_NAMES = ["BITCOIN", "MATIC", "ETHEREUM"];
+module.exports = CRYPRO_NAMES;
